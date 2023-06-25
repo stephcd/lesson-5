@@ -1,0 +1,20 @@
+#ifmissing "123.glm"
+#model get IEEE/123
+#endif
+#include "123.glm"
+
+// Task 1 - set the clock
+clock
+{
+    timezone America/Los_Angeles;
+    starttime "2020-01-01 12:00:00 PDT";
+    stoptime "2021-01-01 12:00:00 PDT";
+}
+
+// Task 2 - Load weather data 
+#ifmissing "CA-Los_Angeles_Intl_Arpt.glm"
+#weather get CA-Los_Angeles_Intl_Arpt
+#endif
+#input "CA-Los_Angeles_Intl_Arpt.tmy3"
+
+#output "IEEE-123-voltage-profile.png" -t profile -l 10
