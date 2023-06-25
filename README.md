@@ -1,6 +1,6 @@
 [![Simulation](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
-# Lesson 5 - Generators
+# Lesson 5 - Time series
 
 The goal of this lesson is to familiarize you with how manage time in a GridLAB-D simulation. The specific learning objectives are the following
 
