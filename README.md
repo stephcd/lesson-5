@@ -39,4 +39,4 @@ The following tasks are illustrated in [`main.glm`](main.glm):
 
 # Next Lesson
 
-* [Lesson 7 - Managing Weather](../../../lesson-7)
+* [Lesson 6 - Managing Weather](../../../lesson-6)
