@@ -6,7 +6,7 @@
 // Task 1 - set the clock
 clock
 {
-    timezone America/Los_Angeles;
+    timezone Mountain Standard Time (North America);
     starttime "2020-01-01 12:00:00 PDT";
     stoptime "2021-01-01 12:00:00 PDT";
 }
