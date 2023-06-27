@@ -8,7 +8,7 @@ clock
 {
     timezone America/Phoenix;
     starttime "2020-01-01 12:00:00 MST";
-    stoptime "2021-01-01 12:00:00 MST";
+    stoptime "2021-01-01 12:00:00 MST"; 
 }
 
 // Task 2 - Load weather data 
